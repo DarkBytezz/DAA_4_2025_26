@@ -48,3 +48,7 @@ int main()
     cout << "Max recursion depth: " << maxDepth << endl;
     return 0;
 }
+
+// Recurrance relation: T(n) = 3T(n/2) + n(logn)
+//Complexity: O(n^log_base2^3)
+
